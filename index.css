@@ -1,0 +1,25 @@
+body{
+        font-family: "Merriweather", serif;
+        font-weight: 900;
+        font-style: italic;
+      }
+      
+/* header styles */
+header{
+    background-image: url('./image/bannerimage.png');
+    background-repeat: no-repeat;
+    justify-content: center;
+    text-align: center;
+    background-size: 100%;
+    margin: 50px 200px;
+    padding: 200px;
+}
+
+/* banner styles */
+.banner{
+  color: white;
+   padding-bottom: 600px;
+}
+.banner-grerting{
+       
+}

@@ -1,25 +1,252 @@
-body{
-        font-family: "Merriweather", serif;
-        font-weight: 900;
-        font-style: italic;
-      }
-      
-/* header styles */
-header{
-    background-image: url('./image/bannerimage.png');
-    background-repeat: no-repeat;
-    justify-content: center;
-    text-align: center;
-    background-size: 100%;
-    margin: 50px 200px;
-    padding: 200px;
+*{
+  margin: 0;
 }
 
-/* banner styles */
-.banner{
-  color: white;
-   padding-bottom: 600px;
+body {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
 }
-.banner-grerting{
-       
+
+p button {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+/* banner styles */
+.banner {
+  background-image: url('./image/bannerimage.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  text-align: center;
+  color: white;
+  padding: 150px 0;
+  margin: 0px 200px ;
+}
+
+
+
+/* offer section styles */
+.offer {
+  text-align: center;
+  color: #FF0000;
+  margin-bottom: 50px;
+}
+
+.offer-h1 {
+  font-weight: 900;
+
+}
+
+.offer-h2 {
+  color: black;
+
+}
+
+/* banner 2 styles */
+.banner-2 {
+  background-image: url('/image/Vectorrr.png'), url('/image/Group\ 70.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 150px 0px;
+  gap: 50px;
+}
+.container {
+  margin: 100px 200px;
+}
+/* party  */
+.partyheight{
+  height: 400px;
+}
+.party {
+  background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,0.2531664765515581) 67%), url('./image/Vectorrr.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 100px 0;
+   /* height: 400px;  */
+}
+/* new park section styles */
+.pcontainer{
+  margin: 50px 200px;
+  font-family: "Inter", sans-serif;
+  background-color: #e9c5d9 ;
+  text-align: center;
+  padding: 50px 0;
+  font-size: 20px;
+}
+.btn{
+  color:white;
+  background-color: #FF0000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+}
+span{
+  color: #FF0000;
+}
+ /* comming soon section */
+.comming{
+  display: flex;
+  gap: 50px;
+  align-items: center;
+ }
+
+ .Ellipse{
+  border: 10px solid red;
+  border-radius: 210px;
+  padding: 10px;
+  width: 500px;
+ }
+
+ .Ellipse img {
+  width: 100%;
+ }
+ .comming h6 {
+  color: red;
+  font-size: 24px;
+ }
+ .para{
+  font-size: 12px;
+  color: grey;
+ }
+ .comming h2{
+  font-size: 48px ;
+ }
+ /* Holiday styles */
+ .sec-container{
+  margin: 0px 200px;
+  /* margin-bottom: 50px; */
+ }
+
+ .discount_img{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ } 
+
+.discount_lady {
+  height: 300px;
+  width: 300px;
+ }
+
+ .discount{
+  height: 200px;
+  width: 200px;
+  position: relative;
+  left: 100px;
+ }
+
+ .discount_box{
+  height: 350px;
+  position: relative;
+  top: 120px;
+  left: 50px;
+
+ }
+
+ .discount_red{
+  width: 100%;
+ }
+ .holiday-text{
+  text-align: center;
+ }
+ .holiday-text h1{
+  color: #FF0000;
+  font-size: 36px;
+  padding: 10px;
+ }
+ .holiday-text h1 span{
+  color: black;
+ }
+ .holiday-text p{
+  font-size: 20px;
+  color: gray;
+ }
+ /* awsome portfolio styles */
+ .Photo-container img{
+  height: 300px;
+ }
+ .Photo-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  gap:10px;
+ }
+ /*  subscribe section styles */
+.container-deatils{
+  text-align: center;
+  background-color: #e9c5d9;
+  padding: 50px 200px;
+}
+.sub-new{
+  margin: 20px 0px;
+  font-size: 40px; 
+}
+.sub-para{
+  font-size: 12px;
+}
+ form{
+  margin-top: 20px;
+ }
+#email{
+  width: 80%;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+
+}
+.design{
+  border-radius: 0px 20px 20px 0px ;
+  position: relative;
+  left: -20px;
+
+}
+/* footer  */
+.foot-style{
+  background-color: black;
+  height: 300px ;
+  padding: 50px 200px ;
+  font-size: 12px;
+}
+.footer-desc{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.icone-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.top{
+  margin: 20px;
+  border: 1px solid grey;
+}
+.icone{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.finish{
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+.ptag{
+  padding: 10px 0px;
 }
